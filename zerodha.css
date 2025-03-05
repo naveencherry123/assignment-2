@@ -1,0 +1,66 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    top: 0;
+    width:100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(253, 253, 253);
+}
+.zeroDha-logo{
+    height: 20px;
+    width: 150px;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+.nav-element{
+    margin-right: 20px;
+    font-family: Sans-serif;
+    font-weight: 400;
+    color: #666;
+    margin-right: 60px;
+    text-decoration: none;
+}
+.price {
+    padding: 0;
+    width: 280px;
+}
+
+.total {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:100px; 
+    padding: 90px;
+    column-gap: 20px; 
+    width: 90%;
+}
+.header {
+    text-align: center;
+    color: #424242;
+    line-height: 44px;
+    font-size: 30px;
+    font-family: Sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.para {
+    color:rgb(102,102,102);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.main{
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    height: 200%;
+}
